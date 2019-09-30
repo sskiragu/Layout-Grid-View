@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		[class*="col-"]{
+			float: left;
+			padding: 15px;
+			border: 1px solid red;
+		}
+		.row::after{
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.col-1 {width: 8.33%;}
+		.col-2 {width: 16.66%;}
+		.col-3 {width: 25%;}
+		.col-4 {width: 33.33%;}
+		.col-5 {width: 41.66%;}
+		.col-6 {width: 50%;}
+		.col-7 {width: 58.33%;}
+		.col-8 {width: 66.66%;}
+		.col-9 {width: 75%;}
+		.col-10 {width: 83.33%;}
+		.col-11 {width: 91.66%;}
+		.col-12 {width: 100%;}
+
+		.top-nav{
+			background-color: darkorange;
+			padding: 14px 28px;
+		}
+		.top-nav ul{
+			margin: 0px;
+			padding: 0px;
+		}
+		.top-nav li{
+			display: inline;
+			padding-left: 15px;
+		}
+	</style>
+</head>
+<body>
+	<!-- Header starts here -->
+	<header>
+		<div class="row">
+		<div class="col-3">
+			<img src="images/10.jpg">
+		</div>
+		<div class="col-9">
+			<p>Phone No. 07122929299 Email:someone@gmail.com</p>
+		</div>
+	</div>
+	</header>
+	<!-- Header ends here -->
+
+	<!-- Navigation starts here -->
+	<nav>
+		<div class="top-nav">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Services</a></li>
+				<li><a href="">Contacts</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Navigation ends here -->
+
+	<!-- Home image start here -->
+	<section>
+		<div class="home-image">
+			<img src="images/1.jpg" width="100%">
+		</div>
+	</section>
+	<!-- Home image end here -->
+
+	<!-- Partners section starts here -->
+	<section>
+		<div class="row">
+			<div class="col-3">
+				<p>Funding partnerships in which we partner with other Foundations, donors and the private sector to manage their funding for investment in its area of focus, leveraging its grants making systems and access to implementing partners.</p>
+			</div>
+			<div class="col-3">
+				<p>Co-Funding Partnerships in which we will partner with organizations to co-fund particular investments in its area of focus.</p>
+			</div>
+			<div class="col-3">
+				<p>Implementation Partnership in which it will partner with organisation who will utilize its investments to achieve particular outcomes in our area of focus.</p>
+			</div>
+			<div class="col-3">
+				<p>Advisory partnerships in which we will partner with organizations to leverage their knowledge and technical leadership in particular thematic areas.</p>
+			</div>
+		</div>
+	</section>
+	<!-- Partner section end here -->
+
+	<!-- Footer starts here -->
+	<footer>
+		<div>
+			<h3>&copy;2019 All rights reserved...</h3>
+		</div>
+	</footer>
+	<!-- Footer ends here -->
+</body>
+</html>
